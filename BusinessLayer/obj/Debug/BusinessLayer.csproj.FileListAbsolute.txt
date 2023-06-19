@@ -1,0 +1,17 @@
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\bin\Debug\DataAccesLayer.dll
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\bin\Debug\DataAccesLayer.pdb
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\bin\Debug\DataAccesLayer.dll.config
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\ERDEM\source\repos\webProject_erdemTas\BusinessLayer\obj\Debug\BusinessLayer.pdb

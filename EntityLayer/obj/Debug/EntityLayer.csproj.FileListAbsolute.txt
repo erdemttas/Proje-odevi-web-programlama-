@@ -1,0 +1,6 @@
+C:\Users\ERDEM\source\repos\webProject_erdemTas\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\ERDEM\source\repos\webProject_erdemTas\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\ERDEM\source\repos\webProject_erdemTas\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\ERDEM\source\repos\webProject_erdemTas\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\ERDEM\source\repos\webProject_erdemTas\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\ERDEM\source\repos\webProject_erdemTas\EntityLayer\obj\Debug\EntityLayer.pdb

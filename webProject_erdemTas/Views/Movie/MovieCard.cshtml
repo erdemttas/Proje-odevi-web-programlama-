@@ -1,0 +1,93 @@
+﻿
+@{
+    Layout = null;
+}
+
+@model  List<EntityLayer.Movie>
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="/Proje/css/index.css">
+    <link rel="stylesheet" href="/Proje/css/card.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="navbar1">
+            <nav>
+                <h2><a href="#">TavsiyeFilmlerim.com</a></h2>
+                <p class="yazi"><small>"En yeni tavsiyefilmleri bulabileceğiniz güncel film tavsiyeleri!"</small></p>
+            </nav>
+
+            <a href="/Movie/AddMovie" class="btn-ozel">Film ekle</a>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="ticket">
+            <img src="~/Proje/img/ticket.png" alt="bilet">
+        </div>
+
+        <div class="main-title animate__animated animate__fadeInDown baslik"><h1>filmler bir göz kırpma kadar kısadır</h1></div>
+
+        @foreach (var item in Model)
+        {
+            <div class="cards">
+                <div class="card mb-3" style="max-width: 650px;">
+                    <div class="row g-3">
+                        <div class="col-md-3">
+                            <img src="@item.ImageUrl" class="img-fluid rounded-start" alt="görsel">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title" style="font-weight: bold;">@item.MovieName</h5>
+                                <p class="card-text"><small>@item.ShortDescription</small></p>
+                                <div class="btn btn-dark"><a href="/Movie/PageMovie/@item.MovieID">Film Detay Bilgisi</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+
+            
+        @*<div class="sidebar">
+
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active bg-secondary" aria-current="true">
+                    Kategoriler
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">Aksiyon</a>
+                <a href="#" class="list-group-item list-group-item-action">Macera</a>
+                <a href="#" class="list-group-item list-group-item-action">Komedi</a>
+                <a href="#" class="list-group-item list-group-item-action">Korku</a>
+                <a href="#" class="list-group-item list-group-item-action">Bilim kurgu</a>
+                <a href="#" class="list-group-item list-group-item-action">Aşk</a>
+            </div>*@
+
+        </div>
+
+
+    </main>
+
+</body>
+</html>

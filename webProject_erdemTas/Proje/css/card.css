@@ -1,0 +1,195 @@
+
+:root{
+    --movie-title-color: #8a2be2;
+    --movie-subtitle-color: #333;
+    --movie-answer-color: #a52424;
+    --movie-time-color: #3a9101;
+
+    --answer-font:'Roboto Slab', serif;
+    --answer-font-2:'Open Sans', sans-serif;
+
+}
+
+body{
+    font-family: var(--answer-font);
+}
+
+/* card navigation - header*/
+
+.navbar1{
+    height: 90px;
+    background-color: #ffc107;
+}
+
+.navbar1 nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar1 nav h2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Roboto Slab',serif;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.yazi{
+    position: absolute;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    top: 55px;
+    left: 560px;
+}
+
+
+
+
+
+/* görsel ve youtube videosu */
+.content-film{
+    display: flex;
+    align-items: top;
+    justify-content: center;    
+    
+}
+
+.content-film img{
+    max-height: 400px;
+    margin: 40px 30px 30px 50px;
+
+}
+
+.content-film iframe{
+    margin: 40px 50px 30px 30px;
+}
+
+ /* açıklama özet */
+.content-description{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+}
+
+.content-description .content-title{
+    color:var(--movie-title-color);
+}
+
+
+.content-description .content-info p{
+    font-family:var(--answer-font-2) ;
+    max-width: 60%;
+    margin: 20px 0;
+}
+
+/* film süresi */
+.content-description .content-info1{
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 605px;
+    font-family: var(--answer-font-2);
+    font-size: 18px;
+
+}
+
+.content-description .content-info1 p{
+   color: var(--movie-time-color); 
+   margin-right: 5px;
+   font-weight: bold;
+}
+
+/* film kategorisi */
+
+.content-info5{
+    position: absolute;
+    top: 215px;
+    left: 600px;
+    display: flex;
+    color: rgb(131, 62, 62);
+}
+
+.content-info5 p{
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+
+/* film puanı */
+.content-info6{
+    position: absolute;
+    top: 180px;
+    left: 600px;
+    display: flex;
+    color: rgb(9, 86, 220);
+}
+
+.content-info6 p{
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+
+
+/* film yayın tarihi */
+.content-info2{
+    display: flex;
+}
+
+.content-description .content-info2 h4{
+    color:var(--movie-subtitle-color);
+    margin: 30px 0;
+    margin-right: 8px;
+}
+
+.content-info2 .date{
+    color: var(--movie-answer-color);
+    margin: 29px 0;
+    font-size: 22px;
+}
+
+
+/* yönetmenler */
+.content-description .content-info3{
+    display: flex;
+}
+
+.content-description .content-info3 h4{
+    color: var(--movie-subtitle-color);
+    margin: 12px 0;
+    margin-right: 8px;
+}
+
+.content-description .content-info3 .director{
+    color: var(--movie-answer-color);
+    margin: 12px 0;
+    font-size: 22px;
+}
+
+/* oyuncular */
+.content-description .content-info4{
+    display: flex;
+}
+
+.content-description .content-info4 h4{
+    color: var(--movie-subtitle-color);
+    margin: 20px 0;
+    margin-right: 8px;
+}
+
+.content-description .content-info4 .players{
+    color: var(--movie-answer-color);
+    margin: 18px 0;
+    font-size: 22px;
+}
+
+
+
+

@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family:'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+h1,h3{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.baslik {
+    width: 100%;
+    text-align: center;
+}
+
+/* navbar */
+.navbar1{
+    height: 90px;
+    background-color: #ffc107;
+}
+
+.navbar1 nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar1 nav h2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'Roboto Slab',serif;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.yazi{
+    position: absolute;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    top: 55px;
+    left: 580px;
+}
+
+
+/* main kısımı */
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-navbar .collapse{
+    padding: 0 200px;
+    height: 70px;
+}
+
+.main-title h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main-title{
+    margin: 30px 0;
+}
+
+.sidebar{
+    position: absolute;
+    width: 180px;
+    top: 195px;
+    left: 1100px;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.ticket{
+    position: absolute;
+    left: 10px;
+    top: 80px;
+}
+
+.ticket img{
+    width: 20%;
+}
+
+.btn-ozel{
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: rgb(1, 211, 137);
+    color: #fff;
+    position: absolute;
+    top: 3%;
+    left: 88%;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+    border: 1px solid #000;
+}
+
+.btn-ozel:hover{
+    background-color: #ffc107;
+    border: 1px solid #fff;
+    color:#282828;
+}
